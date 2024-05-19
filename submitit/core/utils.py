@@ -282,7 +282,7 @@ class CommandFunction:
     pipeline and notify when it is finished.
     The output is a string containing everything that has been sent to stdout.
     WARNING: use CommandFunction only if you know the output won't be too big !
-    Otherwise use subprocess.run() that also streams the outputto stdout/stderr.
+    Otherwise use subprocess.run() that also streams the output to stdout/stderr.
 
     Parameters
     ----------
